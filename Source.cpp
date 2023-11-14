@@ -14,7 +14,7 @@ int main() {
 
 
 		cout << "Enter file to track: " << endl;
-		//cin >> dat;
+		cin >> dat;
 		dat = ("Sample.txt");
 		if (dat == ("sample.txt")) {
 			ofstream MyFile("j1_sample_text<123>.DAT");
