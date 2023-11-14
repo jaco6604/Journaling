@@ -23,6 +23,7 @@ int main() {
 
 //for timestamp add/remove and line make a struct for it. these will be contained in the struct. 
 	//create vector for struct as it is easy to manipulate. 
+	//relevant inotify functions include in_create, in_delete, in_attrib, in_modify, in_move_self, in_moved_from, in_moved_to
 
 
 
