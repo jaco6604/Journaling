@@ -21,7 +21,8 @@ int main() {
 
 		}
 
-
+//for timestamp add/remove and line make a struct for it. these will be contained in the struct. 
+	//create vector for struct as it is easy to manipulate. 
 
 
 
