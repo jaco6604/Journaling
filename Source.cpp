@@ -7,13 +7,16 @@ using namespace std;
 string dat;
 int main() {
 
+
 	struct Journal 
 	{
 		bool addRemove;
-		string timestamp = IN_ATTRIB(utimensat(2));
+		string timestamp;
 		string line;
 
 	};
+	struct Journal j;
+	j.timestamp = IN_ATTRIB(utimensat(2));
 
 
 	ofstream MyFile("sample.txt");
